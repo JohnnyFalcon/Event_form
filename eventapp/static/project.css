@@ -37,7 +37,7 @@ p span {
 
 }
 
-.form-div p {
+.signup-msg {
     font-size: 1.4rem;
     color: rgba(0, 255, 0, 0.3);
     text-align: center;
@@ -69,7 +69,7 @@ p span {
 }
 
 .navbar-brand {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-family: Georgia, serif;
     background-image: linear-gradient(to bottom, #c31432, #240b36);
     background-clip: text;
@@ -92,7 +92,7 @@ p span {
     cursor: pointer;
     display: inline-block;
     font-size: 14px;
-    margin: 0;
+    margin-top: 10px;
     height: 40px;
     width: 150px;
     outline: none;
@@ -130,8 +130,7 @@ p span {
 }
 
 input[type="text"],
-input[type="date"],
-input[type="email"] {
+input[type="date"] {
     margin-bottom: 30px;
 }
 

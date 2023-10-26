@@ -14,7 +14,7 @@ class EventForm(ModelForm):
             "name": "",
             "surname": "",
             "email": "",
-            "birth": "",
+            "birth": "Birth Date",
         }
         widgets = {
             "name": forms.TextInput(
@@ -30,7 +30,6 @@ class EventForm(ModelForm):
                 attrs={
                     "class": "form-control",
                     "type": "date",
-                    "placeholder": "Birth Date",
                 }
             ),
         }
