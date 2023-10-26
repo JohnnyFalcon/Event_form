@@ -19,10 +19,10 @@ def home(request):
             submitted = True
     return render(
         request,
-        "eventapp/home.html",
+        "home.html",
         {"form": form, "submitted": submitted, "users_count": users_count},
     )
 
 
 def about(request):
-    return render(request, "eventapp/about.html", {})
+    return render(request, "about.html", {})
